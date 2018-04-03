@@ -34,9 +34,9 @@ body, html {
 
 /* Picture of me */
 .myImage{
-    max-height: 400px;
+    max-height: 333px;
     height: 100%;
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
 }
 
@@ -56,5 +56,17 @@ body, html {
     */
 @media only screen and (max-device-width: 1024px){
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+}
+
+@media screen and (max-width:600px){
+    .showIfSmall{
+        display: block;
+    }
+}
+
+@media screen and (min-width:601px){
+    .hideIfLarge{
+        display: none;
+    }
 }
 }
