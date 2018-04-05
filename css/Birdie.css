@@ -15,7 +15,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .Birdie_bgimg-1 {
-    background-image: url("/pictures/birdEatingFruit.jpg");
+    background-image: url("/pictures/birdie%20background.png");
+    background-color: skyblue;
     min-height: 100%;
 }
 
