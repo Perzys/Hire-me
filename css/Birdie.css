@@ -38,6 +38,7 @@ body, html {
     max-height: 4500px;
     width: 100%;
     padding-right: 3%;
+    padding-left: 39%;
     margin: 0 auto;
 }
 
@@ -48,6 +49,21 @@ body, html {
 
 .hyperlink{
     color:floralwhite;
+}
+
+@media (max-width: 780px){
+    
+    .birdieOverview{
+            height: 100%;
+    max-width: 1000px;
+    min-width: 200px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    max-height: 4500px;
+    width: 100%;
+    margin: 0 auto;
+        padding-left: 50%;
+    }
 }
 
 

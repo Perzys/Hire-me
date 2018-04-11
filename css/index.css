@@ -14,6 +14,11 @@ body, html {
     background-size: cover;
 }
 
+@media only screen and (max-device-width: 1040px){
+    .bgimg-1, .bgimg-2, .bgimg-3{
+    height: 100%;
+    }
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url("/pictures/tahoe.jpg");
