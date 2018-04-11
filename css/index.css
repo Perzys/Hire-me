@@ -55,8 +55,7 @@ Turn off parallax scrolling for tablets and phones
     }
 }
 
-@media only screen and (max-device-width: 1024px){
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+
 }
 
 @media screen and (max-width:600px){
