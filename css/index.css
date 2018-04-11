@@ -14,11 +14,7 @@ body, html {
     background-size: cover;
 }
 
-@media only screen and (max-device-width: 1040px){
-    .bgimg-1, .bgimg-2, .bgimg-3{
-    height: 100%;
-    }
-}
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url("/pictures/tahoe.jpg");
@@ -52,12 +48,13 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones 
+Turn off parallax scrolling for tablets and phones 
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+        height: 100%;
     }
-    */
+
 @media only screen and (max-device-width: 1024px){
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
 }
