@@ -47,6 +47,18 @@ body, html {
     margin: 0 auto;
 }
 
+.birdieHow{
+    height: 100%;
+    max-width: 570px;
+    min-width: 400px;
+    padding-top: 3%;
+    max-height: 4500px;
+    width: 100%;
+    padding-left: 10%;
+    margin: 0 auto;
+}
+
+
 .hyperlink{
     color:floralwhite;
 }

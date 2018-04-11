@@ -56,8 +56,6 @@ Turn off parallax scrolling for tablets and phones
 }
 
 
-}
-
 @media screen and (max-width:600px){
     .showIfSmall{
         display: block;
