@@ -54,6 +54,7 @@ Turn off parallax scrolling for tablets and phones
         background-attachment: scroll;
         height: 100%;
     }
+}
 
 @media only screen and (max-device-width: 1024px){
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
@@ -70,4 +71,4 @@ Turn off parallax scrolling for tablets and phones
         display: none;
     }
 }
-}
+
