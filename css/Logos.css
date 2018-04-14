@@ -5,6 +5,18 @@ body, html {
     line-height: 1.8;
 }
 
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/pictures/pencil%20shavings.jpg");
+    background-color: skyblue;
+    min-height: 100%;
+    min-width: 80%;
+}
+
 .myLogo{
     max-width: 50%;
 }
@@ -17,9 +29,38 @@ body, html {
     padding-bottom: 5%;
     max-height: 4500px;
     width: 100%;
-    padding-right: 3%;
-    padding-left: 39%;
+    padding-right: 5%;
+    padding-left: 40%;
     margin: 0 auto;
+}
+
+.crowns{
+    max-width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.crownsText{
+    height: 100%;
+    min-width: 400px;
+    max-width: 1200px;
+    width: 100%;
+     margin: 0 auto;
+    padding-left: 40%;
+    padding-right: 5%;  
+    padding-bottom: 5%;
+    padding-top: 2%;
+    max-height: 4500px;
+}
+
+.halfandhalf{
+    background: linear-gradient(
+    to right,
+        #ffffff 0%,
+        #ffffff 50%,
+        #3C989E 50%,
+        #3C989E 50%
+    );
 }
 
 .hyperlink{
